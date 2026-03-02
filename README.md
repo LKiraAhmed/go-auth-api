@@ -1,3 +1,5 @@
+```text
+
 # Go Authentication API
 
 ## Overview
@@ -24,8 +26,6 @@ The purpose of this project is to provide practical training for building a user
 ---
 
 ## 📂 Project Structure
-```text
-
 auth-go/
 ├── internal/
 │   ├── database.go    # Database connection and User model
@@ -37,6 +37,7 @@ auth-go/
 ├── go.mod             # Go module file with dependencies
 └── README.md          # Project documentation
 
+---
 
 ### Database
 ID: Primary key
