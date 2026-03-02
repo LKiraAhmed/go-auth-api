@@ -23,19 +23,20 @@ The purpose of this project is to provide practical training for building a user
 
 ---
 
-## Project Structure
+## 📂 Project Structure
 
-auth-go/n
-internal/n
+auth-go/
+├── internal/
 │   ├── database.go    # Database connection and User model
 │   ├── handlers.go    # Functions: Register, Login, Logout
 │   └── routes.go      # Define API routes
-utils/n
+├── utils/
 │   └── utils.go       # JWT generation
-main.go/n           # Application entry point
+├── main.go            # Application entry point
 ├── go.mod             # Go module file with dependencies
 └── README.md          # Project documentation
----
+
+
 ### Database
 ID: Primary key
 
