@@ -24,8 +24,8 @@ The purpose of this project is to provide practical training for building a user
 ---
 
 ## 📂 Project Structure
-
-```text
+`
+```
 auth-go/
 ├── internal/
 │   ├── database.go    # Database connection and User model
@@ -37,7 +37,7 @@ auth-go/
 ├── go.mod             # Go module file with dependencies
 └── README.md          # Project documentation
 
-
+```
 ### Database
 ID: Primary key
 
@@ -55,7 +55,7 @@ type User struct {
 	Email    string `gorm:"unique;not null" json:"email"`
 	Password string `gorm:"not null" json:"password"`
 }
-
+```
 ---
 
 
@@ -63,7 +63,6 @@ type User struct {
 
 ## 3️⃣ Installation & Run
 
-```markdown
 ### Installation & Run
 
 1. Clone the repository or create a folder `auth-go`
@@ -74,3 +73,9 @@ Install dependencies and tidy modules:
 
 ```bash
 go mod tidy
+```
+Run Application
+Start the API server:
+```go
+go run main.go
+```
