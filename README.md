@@ -24,6 +24,7 @@ The purpose of this project is to provide practical training for building a user
 ---
 
 ## 📂 Project Structure
+```text
 
 auth-go/
 ├── internal/
