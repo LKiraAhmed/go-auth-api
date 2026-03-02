@@ -36,7 +36,6 @@ main.go/n           # Application entry point
 ├── go.mod             # Go module file with dependencies
 └── README.md          # Project documentation
 ---
-
 ### Database
 ID: Primary key
 
